@@ -14,8 +14,7 @@ export default async function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-
-
+         <h1>This is the home page</h1>
       </div>
     </main>
   )
