@@ -1,4 +1,3 @@
-import NavigationBar from './components/NavigationBar'
 import './globals.css'
 import { Poppins } from 'next/font/google'
 
@@ -12,9 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <NavigationBar>
       <body className={poppins.className}>{children}</body>
-      </NavigationBar>
     </html>
   )
 }
